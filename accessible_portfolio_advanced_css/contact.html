@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Contact Sipra Mohanty about software projects, internships, and opportunities.">
+  <title>Contact | Sipra Mohanty</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+<a class="skip-link" href="#main-content">Skip to main content</a>
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="logo" href="index.html" aria-label="Sipra Mohanty home">SM</a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav"><span class="sr-only">Toggle navigation</span>☰</button>
+    <nav id="site-nav" aria-label="Primary navigation">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a aria-current="page" href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="main-content">
+  <section class="page-heading">
+    <div class="container">
+      <p class="eyebrow">Contact</p>
+      <h1>Let's connect</h1>
+      <p class="lead">Use the form below to send a message about projects, internships, or collaboration.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container contact-grid">
+      <article>
+        <h2>Send a message</h2>
+        <form id="contact-form" novalidate>
+          <div class="form-group">
+            <label for="name">Name <span aria-hidden="true">*</span></label>
+            <input id="name" name="name" type="text" autocomplete="name" required aria-describedby="name-error">
+            <p class="error" id="name-error"></p>
+          </div>
+          <div class="form-group">
+            <label for="email">Email <span aria-hidden="true">*</span></label>
+            <input id="email" name="email" type="email" autocomplete="email" required aria-describedby="email-error">
+            <p class="error" id="email-error"></p>
+          </div>
+          <div class="form-group">
+            <label for="message">Message <span aria-hidden="true">*</span></label>
+            <textarea id="message" name="message" rows="7" required aria-describedby="message-error"></textarea>
+            <p class="error" id="message-error"></p>
+          </div>
+          <button class="button" type="submit">Send message</button>
+          <p id="form-status" class="status" role="status" aria-live="polite"></p>
+        </form>
+      </article>
+
+      <aside class="card">
+        <h2>Other ways to connect</h2>
+        <address>
+          <p>Email: <a href="mailto:sipra@example.com">sipra@example.com</a></p>
+          <p>LinkedIn: <a href="#" aria-label="Sipra Mohanty's LinkedIn profile">LinkedIn profile</a></p>
+          <p>GitHub: <a href="#" aria-label="Sipra Mohanty's GitHub profile">GitHub profile</a></p>
+        </address>
+      </aside>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <p>&copy; <span id="year"></span> Sipra Mohanty. All rights reserved.</p>
+    <nav aria-label="Footer navigation"><a href="index.html">Home</a></nav>
+  </div>
+</footer>
+</body>
+</html>

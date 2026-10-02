@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Personal portfolio of Sipra Mohanty, a computer science student and aspiring software engineer.">
+  <title>Sipra Mohanty | Portfolio</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+<a class="skip-link" href="#main-content">Skip to main content</a>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="logo" href="index.html" aria-label="Sipra Mohanty home">SM</a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+      <span class="sr-only">Toggle navigation</span>☰
+    </button>
+    <nav id="site-nav" aria-label="Primary navigation">
+      <ul>
+        <li><a aria-current="page" href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="main-content">
+  <section class="hero" aria-labelledby="hero-title">
+    <div class="container hero-grid">
+      <div>
+        <p class="eyebrow">Computer Science Student</p>
+        <h1 id="hero-title">Hi, I'm <span>Sipra Mohanty.</span></h1>
+        <p class="lead">I build practical software projects while developing strong foundations in Java, databases, web technologies, and accessible design.</p>
+        <div class="button-row">
+          <a class="button" href="projects.html">View my projects</a>
+          <a class="button button-secondary" href="contact.html">Get in touch</a>
+        </div>
+      </div>
+      <aside class="hero-card" aria-label="Portfolio highlights">
+        <div class="avatar" aria-hidden="true">SM</div>
+        <h2>What I work with</h2>
+        <ul class="tag-list">
+          <li>Java</li><li>HTML5</li><li>CSS</li><li>SQL</li><li>Python</li><li>Git</li>
+        </ul>
+      </aside>
+    </div>
+  </section>
+
+  <section class="section" aria-labelledby="highlights-title">
+    <div class="container">
+      <p class="eyebrow">Highlights</p>
+      <h2 id="highlights-title">Building with purpose</h2>
+      <div class="cards">
+        <article class="card">
+          <h3>Semantic HTML</h3>
+          <p>Meaningful elements such as header, nav, main, section, article, aside, and footer improve structure and assistive-technology navigation.</p>
+        </article>
+        <article class="card">
+          <h3>Accessible UI</h3>
+          <p>Keyboard navigation, readable contrast, clear focus indicators, descriptive labels, and responsive layouts are treated as core requirements.</p>
+        </article>
+        <article class="card">
+          <h3>Practical Projects</h3>
+          <p>Projects focus on solving realistic problems and demonstrating programming, database, and software-development skills.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <p>&copy; <span id="year"></span> Sipra Mohanty. All rights reserved.</p>
+    <nav aria-label="Footer navigation">
+      <a href="contact.html">Contact</a>
+    </nav>
+  </div>
+</footer>
+</body>
+</html>
